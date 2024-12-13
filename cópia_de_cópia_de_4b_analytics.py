@@ -52,7 +52,7 @@ for file_name, file_content in uploaded.items():
 from google.colab import files
 uploaded = files.upload()
 
-!pip install openpyxl
+#!pip install openpyxl
 
 import pandas as pd
 
