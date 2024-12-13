@@ -10,7 +10,7 @@ Original file is located at
 # ARRUMAR XLS PARA XLSX
 #!apt-get install --yes libreoffice
 
-from google.colab import files
+
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
