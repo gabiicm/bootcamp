@@ -759,4 +759,4 @@ if uploaded_files:
         fig2 = model.plot_components(forecast)
         st.pyplot(fig2)
 
-streamlit run app.py & npx localtunnel --port 8501
+#streamlit run app.py & npx localtunnel --port 8501
