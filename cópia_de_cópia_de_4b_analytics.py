@@ -691,7 +691,7 @@ print('\n')
 print('REAL')
 print(original[['Data','media_nivel_dia_encantado']].tail(1))
 
-!pip install streamlit
+#!pip install streamlit
 
 import streamlit as st
 
