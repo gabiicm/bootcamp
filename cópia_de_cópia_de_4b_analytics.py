@@ -31,13 +31,15 @@ for file_name, file_content in uploaded.items():
 
     # Ler o arquivo convertido (agora .xlsx) e remover as 4 primeiras linhas do cabeçalho
     novo_nome = file_name.replace('.xls', '.xlsx')
-    df = pd.read_excel(novo_nome) '''<-inserir , skiprows=4 pra remover
+    df = pd.read_excel(novo_nome) 
+    '''<-inserir , skiprows=4 pra remover
 
     # Renomear as colunas
     df.columns = ['Data/Hora', 'Chuva', 'Nivel', 'Vazao', 'Bateria', 'Temp']
 
     # Tratar a coluna "Data/Hora" como data usando pd.to_datetime
-    df['Data/Hora'] = pd.to_datetime(df['Data/Hora'], errors='coerce')'''
+    df['Data/Hora'] = pd.to_datetime(df['Data/Hora'], errors='coerce')
+    '''
 
     # Salvar o arquivo processado como um novo .xlsx
     arquivo_processado = novo_nome.replace('.xlsx', '_atualizado.xlsx')
