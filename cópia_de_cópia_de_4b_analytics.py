@@ -757,4 +757,4 @@ if uploaded_files:
         fig2 = model.plot_components(forecast)
         st.pyplot(fig2)
 
-!streamlit run /usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py
+!streamlit run app.py & npx localtunnel --port 8501
