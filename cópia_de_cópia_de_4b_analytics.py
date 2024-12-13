@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # ARRUMAR XLS PARA XLSX
-!apt-get install --yes libreoffice
+#!apt-get install --yes libreoffice
 
 from google.colab import files
 import pandas as pd
